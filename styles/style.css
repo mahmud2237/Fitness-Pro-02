@@ -7,29 +7,26 @@
     font-style: normal;
   }
 
-body {
-    font-family: 'Inter', sans-serif;
-    max-width: 1440px;
-    height: 4000px;
-    margin: 0 auto;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-}
-
 /* Some shared styles */
+.brand{
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: #E6533C;
+}
 .h1 {
-    font-size: 4.8rem;
+    font-size: 4.5rem;
     font-weight: 900;
     color: #ffffff;
 }
 
 .h2 {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #ffffff;
 }
 
 .h3 {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-weight: 400;
     color: #ffffff;
 }
@@ -40,18 +37,60 @@ body {
     color: #ffffff;
 }
 .h5 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 300;
     color: #ffffff;
 }
 .description{
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 400;
     color: #ffffff;
 }
+
 .btn-primary {
     width: 240px;
     height: 60px;
     border-radius: 42px;
     background: rgb(230, 83, 60);
+}
+.display-flex{
+    display: flex;
+}
+.display-grid{
+    display: grid;
+}
+
+
+/* Body Styles here */
+
+body {
+    font-family: 'Inter', sans-serif;
+    max-width: 1440px;
+    height: 4000px;
+    margin: 0 auto;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+/* Header section styles here  */
+.nav-container{
+    width: 1360px;
+    height: 50px;
+}
+.nav-container .nav-ul a{
+    text-decoration: none;
+}
+.nav-ul{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-ul-div-2{
+    gap: 42px;
+}
+
+.nav-ul-div-2 a {
+    padding: 12px;
+}
+.nav-ul-div-2 a:hover {
+    border-radius: 18px;
+    background-color: rgb(230, 83, 60);
 }
