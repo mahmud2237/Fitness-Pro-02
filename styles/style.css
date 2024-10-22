@@ -5,14 +5,15 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-  }
+}
 
 /* Some shared styles */
-.brand{
+.brand {
     font-size: 2.4rem;
     font-weight: 900;
     color: #E6533C;
 }
+
 .h1 {
     font-size: 4.5rem;
     font-weight: 900;
@@ -36,30 +37,47 @@
     font-weight: 300;
     color: #ffffff;
 }
+
 .h5 {
     font-size: 1.2rem;
     font-weight: 300;
     color: #ffffff;
 }
-.description{
+
+.description {
     font-size: 0.8rem;
     font-weight: 400;
     color: #ffffff;
 }
 
+.btn-pri {
+    color: #ffffff;
+    width: 240px;
+    height: 60px;
+    border-radius: 42px;
+    border: 1px solid #ffffff;
+    background: rgb(17, 17, 17) 100%;
+}
+
 .btn-primary {
+    color: #ffffff;
     width: 240px;
     height: 60px;
     border-radius: 42px;
     background: rgb(230, 83, 60);
-}
-.display-flex{
-    display: flex;
-}
-.display-grid{
-    display: grid;
+    border: none;
 }
 
+.display-flex {
+    display: flex;
+}
+
+.display-grid {
+    display: grid;
+}
+.bold{
+    font-weight: bold;
+}
 
 /* Body Styles here */
 
@@ -71,26 +89,166 @@ body {
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
 
-/* Header section styles here  */
-.nav-container{
-    width: 1360px;
+/* Header styles here */
+
+
+/* Header Nav styles here */
+.nav-container {
     height: 50px;
 }
-.nav-container .nav-ul a{
+
+.nav-container .nav-ul a {
     text-decoration: none;
 }
-.nav-ul{
+
+.nav-ul {
     justify-content: space-between;
     align-items: center;
 }
-.nav-ul-div-2{
+
+.nav-ul-div-2 {
     gap: 42px;
 }
 
 .nav-ul-div-2 a {
     padding: 12px;
 }
+
 .nav-ul-div-2 a:hover {
     border-radius: 18px;
     background-color: rgb(230, 83, 60);
+}
+
+/* Header Content styles here */
+.header-content {
+    width: 1280px;
+    height: 750px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    border: 1px solid saddlebrown;
+}
+
+.header-content-details {
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid saddlebrown;
+}
+
+.header-content-details button {
+    margin-top: 30px;
+}
+.header-content-img{
+    position: relative;
+    border: 1px solid saddlebrown;
+}
+.header-img-box-1 {
+    position: absolute;
+    right: 280px;
+    bottom: 190px;
+    width: 150px;
+    height: 80px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    background: rgba(48, 48, 48, 0.54);
+    border: 1px solid saddlebrown;
+}
+
+.dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    display: inline-block;
+}
+
+.header-img-box-2 {
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    right: -70px;
+    bottom: 350px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    border: 1px solid saddlebrown;
+}
+.header-img-box-2-1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-img-box-2 .header-img-box-2-1 div h5{
+    margin-bottom: -1px;
+    border: 1px solid slateblue;
+}
+
+
+
+
+
+/* Footer styles here */
+
+.footer {
+    width: 1280px;
+    height: 400px;
+    /* align-items: center;
+    justify-content: space-between; */
+    gap: 20px;
+    border: 1px solid firebrick;
+}
+.footer-1{
+    width: 1280px;
+    height: 320px;
+    align-items: center;
+    justify-content: space-evenly; 
+    border: 1px solid salmon;
+}
+.footer-1-1{
+    width: 45%;
+    border: 1px solid slateblue;
+}
+.footer-1-2{
+    width: 50%;
+    justify-content: space-around;
+    border: 1px solid yellow;
+}
+.footer-1-2-1{
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+.footer-1-2-1 a{
+    text-decoration: none;
+}
+.footer-1-2-2{
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.footer-1-2-2 a{
+    text-decoration: none;
+}
+.footer p{
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Media Query here */
+
+@media screen and (max-width: 576px) {
+    .nav-ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
