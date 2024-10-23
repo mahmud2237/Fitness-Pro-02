@@ -10,8 +10,9 @@
 /* Added my existing font from my local machine */
 @font-face {
     font-family: 'Miama';
-    src: url('../Fonts/Miama.ttf'); /* Locate the .ttf file within your directory*/
-  }
+    src: url('../Fonts/Miama.ttf');
+    /* Locate the .ttf file within your directory*/
+}
 
 
 * {
@@ -19,6 +20,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* Body Styles here */
 
 body {
@@ -28,7 +30,7 @@ body {
     background-color: #000000;
     /* height: 4000px; */
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
-    
+
 }
 
 
@@ -100,7 +102,8 @@ body {
 .grid {
     display: grid;
 }
-.bold{
+
+.bold {
     font-weight: bold;
 }
 
@@ -149,7 +152,8 @@ body {
     justify-content: space-between;
     border: 1px solid saddlebrown;
 }
-.shape{
+
+.shape {
     font-family: 'Miama', sans-serif;
     font-weight: 900;
 }
@@ -157,10 +161,12 @@ body {
 .header-content-details button {
     margin-top: 30px;
 }
-.header-content-img{
+
+.header-content-img {
     position: relative;
     border: 1px solid saddlebrown;
 }
+
 .header-img-box-1 {
     position: absolute;
     right: 280px;
@@ -198,12 +204,14 @@ body {
     border-radius: 12px;
     border: 1px solid saddlebrown;
 }
-.header-img-box-2-1{
+
+.header-img-box-2-1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.header-img-box-2 .header-img-box-2-1 div h5{
+
+.header-img-box-2 .header-img-box-2-1 div h5 {
     margin-bottom: -1px;
     border: 1px solid slateblue;
 }
@@ -211,7 +219,7 @@ body {
 /* Header styles Ends here */
 
 /* Main styles starts here */
-.habit-container{
+.habit-container {
     height: 580px;
     flex-direction: column;
     justify-content: center;
@@ -219,13 +227,15 @@ body {
     gap: 40px;
     border: 1px solid seagreen;
 }
-.habit-container-div-1{
+
+.habit-container-div-1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-.habit-container-div-2{
+
+.habit-container-div-2 {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -238,6 +248,7 @@ body {
     border-radius: 50%;
     border: 1px solid firebrick;
 }
+
 .habit-container-div-2-1,
 .habit-container-div-2-2,
 .habit-container-div-2-3,
@@ -248,7 +259,8 @@ body {
     align-items: center;
     border: 1px solid forestgreen;
 }
-.run-container{
+
+.run-container {
     width: 100%;
     margin-top: 60px;
     justify-content: space-evenly;
@@ -256,16 +268,19 @@ body {
     gap: 40px;
     border: 1px solid goldenrod;
 }
-.run-container-1{
+
+.run-container-1 {
     flex-direction: column;
     width: 49%;
     gap: 40px;
     border: 1px solid royalblue;
 }
-.run-container-2{
+
+.run-container-2 {
     width: 49%;
 }
-.run-container-2 img{
+
+.run-container-2 img {
     width: 100%;
     /* object-fit: cover; */
     align-items: center;
@@ -273,14 +288,15 @@ body {
 }
 
 /* Bmi styles here */
-.bmi-container{
+.bmi-container {
     flex-direction: column;
     height: 680px;
     gap: 30px;
     margin-top: 40px;
     border: 1px solid aqua;
 }
-.bmi-container-1{
+
+.bmi-container-1 {
     flex-direction: column;
     gap: 20px;
     justify-content: center;
@@ -289,53 +305,64 @@ body {
     margin-bottom: 10px;
     border: 1px solid aqua;
 }
-.bmi-container-2{
+
+.bmi-container-2 {
     height: 80%;
     justify-content: space-between;
     align-items: center;
     border: 1px solid seagreen;
 }
-table, tr, td, th{
+
+table,
+tr,
+td,
+th {
     padding: 20px;
     border: 1px solid #FFFFFF;
     border-collapse: collapse;
 }
+
 .bmi-container-2-1,
-.bmi-container-2-2{
+.bmi-container-2-2 {
     width: 49%;
     height: 75%;
     margin: 15px;
     flex-direction: column;
     border: 1px solid darkmagenta;
 }
-.bmi-container-2-2-0{
+
+.bmi-container-2-2-0 {
     width: 100%;
     height: 35%;
     justify-content: space-evenly;
     flex-direction: column;
     border: 1px solid greenyellow;
 }
-.bmi-container-2-2-1{
+
+.bmi-container-2-2-1 {
     width: 100%;
     height: 70%;
     flex-direction: column;
     border: 1px solid red;
 }
-.bmi-container-2-2-1 input{
+
+.bmi-container-2-2-1 input {
     width: 420px;
     height: 40px;
     padding: 12px 18px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
-.bmi-container-2-2-1-1{
+
+.bmi-container-2-2-1-1 {
     height: 38%;
     gap: 10px;
     flex-direction: column;
     border: 1px solid darkblue;
 }
+
 .bmi-container-2-2-1-1-1,
-.bmi-container-2-2-1-1-2{
+.bmi-container-2-2-1-1-2 {
     width: 250px;
     height: 40px;
     border-radius: 18px;
@@ -343,41 +370,42 @@ table, tr, td, th{
 
 /* Meet styles here */
 
-.meet-container{
+.meet-container {
     flex-direction: column;
     height: 840px;
     gap: 30px;
     margin-top: 40px;
     border: 1px solid darkorange;
 }
-.meet-container-1{
+
+.meet-container-1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.meet-container-2{
+
+.meet-container-2 {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.meet-container-2 img{
-    position: relative;
+
+.meet-container-2 img {
     width: 100%;
     height: 320px;
     object-fit: cover;
     border-radius: 10px;
     border: 1px solid lightgray;
 }
-/* .meet-container-2-1, 
-.meet-container-2-2,
-.meet-container-2-3,
-.meet-container-2-4,
-.meet-container-2-5,
-.meet-container-2-6, img{
-    border: 1px solid red;
-} */
-.img-descrip{
+
+.meet-container-2-1 {
+    position: relative;
+}
+
+.img-descrip {
     position: absolute;
-    z-index: 2;
+    z-index: 1;
+    bottom: 30px;
+    left: 10px;
     border: 1px solid blue;
 }
 
@@ -393,43 +421,51 @@ table, tr, td, th{
     /* background-color: #1a1a18; */
     border: 1px solid firebrick;
 }
-.footer-1{
+
+.footer-1 {
     align-items: center;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
     border: 1px solid salmon;
 }
-.footer-1-1{
+
+.footer-1-1 {
     height: 180px;
     width: 45%;
     flex-direction: column;
     justify-content: space-around;
     border: 1px solid slateblue;
 }
-.footer-1-2{
+
+.footer-1-2 {
     height: 180px;
     width: 50%;
     justify-content: space-around;
     border: 1px solid yellow;
 }
-.footer-1-2-1{
+
+.footer-1-2-1 {
     flex-direction: column;
     justify-content: space-between;
     border: 1px solid blue;
 }
 
-.footer-1-2-2{
+.footer-1-2-2 {
     flex-direction: column;
     justify-content: space-between;
     border: 1px solid red;
 }
-.footer-1-2-2, .footer-1-2-1 a{
+
+.footer-1-2-2,
+.footer-1-2-1 a {
     text-decoration: none;
 }
-.footer p{
+
+.footer p {
     justify-content: center;
     align-items: center;
 }
-.footer-2{
+
+.footer-2 {
     width: 90%;
     flex-direction: column;
     justify-content: space-evenly;
@@ -445,6 +481,7 @@ table, tr, td, th{
         justify-content: center;
         align-items: center;
     }
+
     .nav-ul {
         display: flex;
         flex-direction: column;
@@ -452,18 +489,20 @@ table, tr, td, th{
         align-items: center;
         margin-bottom: 20px;
     }
-    .header-content{
+
+    .header-content {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .header-content-img{
+
+    .header-content-img {
         width: 95 %;
         flex-direction: column;
     }
 
     /* Main Media query styles here */
-    .habit-container{
+    .habit-container {
         height: 100%;
         margin: 30px;
         flex-direction: column;
@@ -472,26 +511,29 @@ table, tr, td, th{
         gap: 40px;
         border: 1px solid seagreen;
     }
-    .habit-container-div-1{
+
+    .habit-container-div-1 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
     }
-    .habit-container-div-2{
+
+    .habit-container-div-2 {
         height: 100%;
         flex-direction: column;
         justify-content: center;
         gap: 20px;
         border: 1px solid fuchsia;
     }
-    
+
     .habit-container-div-2-img {
         width: 100%;
         height: 100%;
         border-radius: 50%;
         border: 1px solid firebrick;
     }
+
     .habit-container-div-2-1,
     .habit-container-div-2-2,
     .habit-container-div-2-3,
@@ -502,7 +544,8 @@ table, tr, td, th{
         align-items: center;
         border: 1px solid forestgreen;
     }
-    .run-container{
+
+    .run-container {
         width: 100%;
         flex-direction: column;
         justify-content: space-evenly;
@@ -510,21 +553,26 @@ table, tr, td, th{
         gap: 10px;
         border: 1px solid goldenrod;
     }
-    .run-container-1{
+
+    .run-container-1 {
         width: 90%;
         flex-direction: column;
         gap: 40px;
         border: 1px solid royalblue;
     }
-    .run-container, .run-container-1  .btn-run{
+
+    .run-container,
+    .run-container-1 .btn-run {
         justify-content: space-evenly;
         align-items: center;
     }
-    .run-container-2{
+
+    .run-container-2 {
         width: 90%;
         /* object-fit: cover; */
     }
-    .run-container-2 img{
+
+    .run-container-2 img {
         width: 100%;
         align-items: center;
         border-radius: 20px;
@@ -532,83 +580,115 @@ table, tr, td, th{
     }
 
     /* BMI Media styles here */
-    .bmi-container{
+    .bmi-container {
         gap: 10px;
         margin-top: 30px;
         border: 1px solid aqua;
     }
-    .bmi-container-1{
+
+    .bmi-container-1 {
         flex-direction: column;
         gap: 10px;
         margin-bottom: 10px;
         border: 1px solid aqua;
     }
-    .bmi-container-2{
+
+    .bmi-container-2 {
         flex-direction: column;
         border: 1px solid seagreen;
     }
-    table, tr, td, th{
+
+    table,
+    tr,
+    td,
+    th {
         padding: 0.1px;
         border: 1px solid #FFFFFF;
         border-collapse: collapse;
     }
+
     .bmi-container-2-1,
-    .bmi-container-2-2{
+    .bmi-container-2-2 {
         width: 100%;
         gap: 10px;
         flex-direction: column;
         border: 1px solid darkmagenta;
     }
-    .bmi-container-2-2-0{
+
+    .bmi-container-2-2-0 {
         width: 100%;
         flex-direction: column;
         margin-bottom: 5px;
         border: 1px solid greenyellow;
     }
-    .bmi-container-2-2-1{
+
+    .bmi-container-2-2-1 {
         margin-top: 5px;
         flex-direction: column;
         justify-content: flex-end;
         border: 1px solid red;
     }
-    .bmi-container-2-2-1 input{
+
+    .bmi-container-2-2-1 input {
         padding: 2px 8px;
         border-radius: 10px;
     }
-    
-    .bmi-container-2-2-1-1{
+
+    .bmi-container-2-2-1-1 {
         gap: 10px;
         flex-direction: column;
     }
 
+    /* Media Meet styles here */
+
+    .meet-container {
+        height: auto;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 40px;
+    }
+    .meet-container-2 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4px;
+        align-items: center;
+    }
+    .meet-container-2 img {
+        padding: 8px;
+        width: 100%;
+        height: auto;
+    }
 
     /* Media Footer style here */
-    .footer{
-        width: 90%;
+    .footer {
+        width: 100%;
         height: 100%;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
     }
-    .footer-1{
+
+    .footer-1 {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
     }
-    .footer-1-1{
+
+    .footer-1-1 {
         gap: 15px;
         width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .footer-1-2{
+
+    .footer-1-2 {
         width: 90%;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
     }
-    .footer-2{
+
+    .footer-2 {
         width: 90%;
         flex-direction: column;
         justify-content: center;
