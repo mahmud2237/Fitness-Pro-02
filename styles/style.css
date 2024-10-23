@@ -274,46 +274,71 @@ body {
 
 /* Bmi styles here */
 .bmi-container{
-    height: 650px;
+    flex-direction: column;
+    height: 680px;
     gap: 30px;
     margin-top: 40px;
     border: 1px solid aqua;
 }
 .bmi-container-1{
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 1px solid aqua;
 }
 .bmi-container-2{
-    justify-content: space-around;
+    height: 80%;
+    justify-content: space-between;
     align-items: center;
+    border: 1px solid seagreen;
 }
 table, tr, td, th{
     padding: 20px;
     border: 1px solid #FFFFFF;
     border-collapse: collapse;
 }
-.bmi-container-2-1{
-    width: 49%;
-}
+.bmi-container-2-1,
 .bmi-container-2-2{
     width: 49%;
+    height: 75%;
+    margin: 15px;
     flex-direction: column;
+    border: 1px solid darkmagenta;
+}
+.bmi-container-2-2-0{
+    width: 100%;
+    height: 35%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px solid greenyellow;
 }
 .bmi-container-2-2-1{
-    height: 50px;
+    width: 100%;
+    height: 70%;
     flex-direction: column;
-    
+    border: 1px solid red;
+}
+.bmi-container-2-2-1 input{
+    width: 420px;
+    height: 40px;
+    padding: 12px 18px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 .bmi-container-2-2-1-1{
+    height: 38%;
+    gap: 10px;
     flex-direction: column;
+    border: 1px solid darkblue;
 }
 .bmi-container-2-2-1-1-1,
 .bmi-container-2-2-1-1-2{
     width: 250px;
-    height: 50px;
+    height: 40px;
+    border-radius: 18px;
 }
 
 
@@ -374,6 +399,11 @@ table, tr, td, th{
 /* Media Query here */
 
 @media screen and (max-width: 576px) {
+    .display-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .nav-ul {
         display: flex;
         flex-direction: column;
@@ -460,7 +490,55 @@ table, tr, td, th{
         border: 1px solid deeppink;
     }
 
-
+    /* BMI Media styles here */
+    .bmi-container{
+        gap: 10px;
+        margin-top: 30px;
+        border: 1px solid aqua;
+    }
+    .bmi-container-1{
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 10px;
+        border: 1px solid aqua;
+    }
+    .bmi-container-2{
+        flex-direction: column;
+        border: 1px solid seagreen;
+    }
+    table, tr, td, th{
+        padding: 0.1px;
+        border: 1px solid #FFFFFF;
+        border-collapse: collapse;
+    }
+    .bmi-container-2-1,
+    .bmi-container-2-2{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        border: 1px solid darkmagenta;
+    }
+    .bmi-container-2-2-0{
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 5px;
+        border: 1px solid greenyellow;
+    }
+    .bmi-container-2-2-1{
+        margin-top: 5px;
+        flex-direction: column;
+        justify-content: flex-end;
+        border: 1px solid red;
+    }
+    .bmi-container-2-2-1 input{
+        padding: 2px 8px;
+        border-radius: 10px;
+    }
+    
+    .bmi-container-2-2-1-1{
+        gap: 10px;
+        flex-direction: column;
+    }
 
 
     /* Media Footer style here */
