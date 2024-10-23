@@ -143,14 +143,12 @@ body {
     align-items: center;
     justify-content: space-around;
     margin-top: 40px;
-    border: 1px solid saddlebrown;
 }
 
 .header-content-details {
     gap: 30px;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid saddlebrown;
 }
 
 .shape {
@@ -164,7 +162,6 @@ body {
 
 .header-content-img {
     position: relative;
-    border: 1px solid saddlebrown;
 }
 
 .header-img-box-1 {
@@ -179,7 +176,6 @@ body {
     border-radius: 12px;
     backdrop-filter: blur(5px);
     background: rgba(48, 48, 48, 0.54);
-    border: 1px solid saddlebrown;
 }
 
 .dot {
@@ -202,7 +198,6 @@ body {
     backdrop-filter: blur(5px);
     background-color: rgba(48, 48, 48, 0.54);
     border-radius: 12px;
-    border: 1px solid saddlebrown;
 }
 
 .header-img-box-2-1 {
@@ -213,7 +208,6 @@ body {
 
 .header-img-box-2 .header-img-box-2-1 div h5 {
     margin-bottom: -1px;
-    border: 1px solid slateblue;
 }
 
 /* Header styles Ends here */
@@ -225,7 +219,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    border: 1px solid seagreen;
 }
 
 .habit-container-div-1 {
@@ -239,14 +232,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border: 1px solid fuchsia;
 }
 
 .habit-container-div-2-img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 1px solid firebrick;
 }
 
 .habit-container-div-2-1,
@@ -257,7 +248,6 @@ body {
     gap: 20px;
     flex-direction: column;
     align-items: center;
-    border: 1px solid forestgreen;
 }
 
 .run-container {
@@ -266,14 +256,12 @@ body {
     justify-content: space-evenly;
     align-items: center;
     gap: 40px;
-    border: 1px solid goldenrod;
 }
 
 .run-container-1 {
     flex-direction: column;
     width: 49%;
     gap: 40px;
-    border: 1px solid royalblue;
 }
 
 .run-container-2 {
@@ -284,7 +272,6 @@ body {
     width: 100%;
     /* object-fit: cover; */
     align-items: center;
-    border: 1px solid deeppink;
 }
 
 /* Bmi styles here */
@@ -293,7 +280,6 @@ body {
     height: 680px;
     gap: 30px;
     margin-top: 40px;
-    border: 1px solid aqua;
 }
 
 .bmi-container-1 {
@@ -303,14 +289,12 @@ body {
     align-items: center;
     margin-top: 30px;
     margin-bottom: 10px;
-    border: 1px solid aqua;
 }
 
 .bmi-container-2 {
     height: 80%;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid seagreen;
 }
 
 table,
@@ -328,7 +312,6 @@ th {
     height: 75%;
     margin: 15px;
     flex-direction: column;
-    border: 1px solid darkmagenta;
 }
 
 .bmi-container-2-2-0 {
@@ -336,14 +319,12 @@ th {
     height: 35%;
     justify-content: space-evenly;
     flex-direction: column;
-    border: 1px solid greenyellow;
 }
 
 .bmi-container-2-2-1 {
     width: 100%;
     height: 70%;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .bmi-container-2-2-1 input {
@@ -358,7 +339,6 @@ th {
     height: 38%;
     gap: 10px;
     flex-direction: column;
-    border: 1px solid darkblue;
 }
 
 .bmi-container-2-2-1-1-1,
@@ -375,7 +355,6 @@ th {
     height: 840px;
     gap: 30px;
     margin-top: 40px;
-    border: 1px solid darkorange;
 }
 
 .meet-container-1 {
@@ -394,7 +373,6 @@ th {
     height: 320px;
     object-fit: cover;
     border-radius: 10px;
-    border: 1px solid lightgray;
 }
 
 .meet-container-2-1 {
@@ -406,7 +384,6 @@ th {
     z-index: 1;
     bottom: 30px;
     left: 10px;
-    border: 1px solid blue;
 }
 
 
@@ -419,13 +396,11 @@ th {
     justify-content: center;
     align-items: center;
     /* background-color: #1a1a18; */
-    border: 1px solid firebrick;
 }
 
 .footer-1 {
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid salmon;
 }
 
 .footer-1-1 {
@@ -433,26 +408,22 @@ th {
     width: 45%;
     flex-direction: column;
     justify-content: space-around;
-    border: 1px solid slateblue;
 }
 
 .footer-1-2 {
     height: 180px;
     width: 50%;
     justify-content: space-around;
-    border: 1px solid yellow;
 }
 
 .footer-1-2-1 {
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid blue;
 }
 
 .footer-1-2-2 {
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid red;
 }
 
 .footer-1-2-2,
@@ -470,7 +441,6 @@ th {
     flex-direction: column;
     justify-content: space-evenly;
     margin: 30px;
-    border: 1px solid orange;
 }
 
 /* Media Query here */
@@ -509,7 +479,6 @@ th {
         justify-content: center;
         align-items: center;
         gap: 40px;
-        border: 1px solid seagreen;
     }
 
     .habit-container-div-1 {
@@ -524,14 +493,12 @@ th {
         flex-direction: column;
         justify-content: center;
         gap: 20px;
-        border: 1px solid fuchsia;
     }
 
     .habit-container-div-2-img {
         width: 100%;
         height: 100%;
         border-radius: 50%;
-        border: 1px solid firebrick;
     }
 
     .habit-container-div-2-1,
@@ -542,7 +509,6 @@ th {
         gap: 30px;
         flex-direction: column;
         align-items: center;
-        border: 1px solid forestgreen;
     }
 
     .run-container {
@@ -551,14 +517,12 @@ th {
         justify-content: space-evenly;
         align-items: center;
         gap: 10px;
-        border: 1px solid goldenrod;
     }
 
     .run-container-1 {
         width: 90%;
         flex-direction: column;
         gap: 40px;
-        border: 1px solid royalblue;
     }
 
     .run-container,
@@ -576,26 +540,22 @@ th {
         width: 100%;
         align-items: center;
         border-radius: 20px;
-        border: 1px solid deeppink;
     }
 
     /* BMI Media styles here */
     .bmi-container {
         gap: 10px;
         margin-top: 30px;
-        border: 1px solid aqua;
     }
 
     .bmi-container-1 {
         flex-direction: column;
         gap: 10px;
         margin-bottom: 10px;
-        border: 1px solid aqua;
     }
 
     .bmi-container-2 {
         flex-direction: column;
-        border: 1px solid seagreen;
     }
 
     table,
@@ -612,21 +572,18 @@ th {
         width: 100%;
         gap: 10px;
         flex-direction: column;
-        border: 1px solid darkmagenta;
     }
 
     .bmi-container-2-2-0 {
         width: 100%;
         flex-direction: column;
         margin-bottom: 5px;
-        border: 1px solid greenyellow;
     }
 
     .bmi-container-2-2-1 {
         margin-top: 5px;
         flex-direction: column;
         justify-content: flex-end;
-        border: 1px solid red;
     }
 
     .bmi-container-2-2-1 input {
