@@ -97,7 +97,7 @@ body {
     display: flex;
 }
 
-.display-grid {
+.grid {
     display: grid;
 }
 .bold{
@@ -340,6 +340,36 @@ table, tr, td, th{
     height: 40px;
     border-radius: 18px;
 }
+
+/* Meet styles here */
+
+.meet-container{
+    flex-direction: column;
+    height: 600px;
+    gap: 30px;
+    margin-top: 40px;
+    border: 1px solid darkorange;
+}
+.meet-container-1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.meet-container-2{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.meet-container-2 div img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid lightgray;
+}
+.img-descrip{
+    position: absolute;
+    top: 20px;
+}
+
 
 
 /* Footer styles here */
