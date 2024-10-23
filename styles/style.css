@@ -272,6 +272,50 @@ body {
     border: 1px solid deeppink;
 }
 
+/* Bmi styles here */
+.bmi-container{
+    height: 650px;
+    gap: 30px;
+    margin-top: 40px;
+    border: 1px solid aqua;
+}
+.bmi-container-1{
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.bmi-container-2{
+    justify-content: space-around;
+    align-items: center;
+}
+table, tr, td, th{
+    padding: 20px;
+    border: 1px solid #FFFFFF;
+    border-collapse: collapse;
+}
+.bmi-container-2-1{
+    width: 49%;
+}
+.bmi-container-2-2{
+    width: 49%;
+    flex-direction: column;
+}
+.bmi-container-2-2-1{
+    height: 50px;
+    flex-direction: column;
+    
+}
+.bmi-container-2-2-1-1{
+    flex-direction: column;
+}
+.bmi-container-2-2-1-1-1,
+.bmi-container-2-2-1-1-2{
+    width: 250px;
+    height: 50px;
+}
+
 
 /* Footer styles here */
 
@@ -412,12 +456,13 @@ body {
     .run-container-2 img{
         width: 100%;
         align-items: center;
+        border-radius: 20px;
         border: 1px solid deeppink;
     }
 
 
 
-    
+
     /* Media Footer style here */
     .footer{
         width: 90%;
