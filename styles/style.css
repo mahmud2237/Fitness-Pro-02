@@ -40,7 +40,9 @@ body {
     font-weight: 900;
     color: #E6533C;
 }
-
+.nav{
+    background-color: #000000;
+}
 .h1 {
     font-size: 4.5rem;
     font-weight: 900;
@@ -124,7 +126,9 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-
+.nav-ul .nav-ul-div-3 img{
+    display: none;
+}
 .nav-ul-div-2 {
     gap: 42px;
 }
@@ -501,10 +505,16 @@ a {
 
     .nav-ul {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-around;
         align-items: center;
         margin-bottom: 20px;
+    }
+    .nav-ul .nav-ul-div-2{
+        display: none;
+    }
+    .nav-ul .nav-ul-div-3 img{
+        display: block;
     }
 
     .header-content {
