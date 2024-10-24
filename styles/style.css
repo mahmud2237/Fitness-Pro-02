@@ -126,9 +126,7 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-.nav-ul .nav-ul-div-3 img{
-    display: none;
-}
+
 .nav-ul-div-2 {
     gap: 42px;
 }
@@ -141,6 +139,12 @@ body {
     border-radius: 18px;
     background-color: rgb(230, 83, 60);
 }
+.nav-ul-div-3{
+    display: none;
+}
+/* .nav-ul-div-3 img{
+    display: none;
+} */
 
 /* Header Content styles here */
 .header-content {
@@ -510,10 +514,10 @@ a {
         align-items: center;
         margin-bottom: 20px;
     }
-    .nav-ul .nav-ul-div-2{
+    .nav-ul-div-2{
         display: none;
     }
-    .nav-ul .nav-ul-div-3 img{
+    .nav-ul-div-3{
         display: block;
     }
 
